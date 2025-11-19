@@ -11,7 +11,7 @@ var menuHTML = ''
 menuHTML += '<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>'
 menuHTML += '<a href="index.html">Home</a>'
 menuHTML += '<a href="personnel.html">Personnel</a>'
-menuHTML += '<a href="videoclips.html">Sample Excerpts</a>'
+menuHTML += '<a href="https://www.youtube.com/channel/UCXAAWGf1NkOcLn8zd8leNMw" target="_blank">Manasota Sax Quartet YouTube Channel</a>'
 menuHTML += '<a href="performances.html">Performances</a>'
 menuHTML += '<a href="contact.html">Contact</a>'
 
