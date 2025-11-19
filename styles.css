@@ -1,10 +1,13 @@
 a.header {
-  display :block;
-  text-decoration:none;
+  display: block;
+  text-decoration: none;
   color: black;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 8px;
   !important
@@ -26,13 +29,13 @@ h1,h2,h3,h4 {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;  
+  font-size: 25px;
   color: #f1f1f1;
   display: block;
   transition: 0.3s;
 }
 
-.sidenav a:hover {  
+.sidenav a:hover {
   color: #818181;
 }
 
@@ -45,15 +48,20 @@ h1,h2,h3,h4 {
 }
 
 .menu {
-  font-size:30px;
-  cursor:pointer;
+  font-size: 30px;
+  cursor: pointer;
   float: left;
   position: absolute;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
 hr {
@@ -62,21 +70,21 @@ hr {
 }
 
 .intro {
-    font-size: large;
-    font-weight: bold;
-    font-style: italic;
-    text-align: left; 
-    margin-top: 1em;
-  }
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  margin-top: 1em;
+}
 
 .main-container {
-    width: 800px;
+  width: 800px;
 }
 
 .paragraph {
-  font-family: Arial, Helvetica, sans-serif;  
+  font-family: Arial, Helvetica, sans-serif;
   font-size: large;
-  text-align: left;  
+  text-align: left;
   margin-top: 1em;
   line-height: 1.7em;
 }
@@ -100,6 +108,16 @@ hr {
   line-height: 1.7em;
 }
 
+.paragraph-short {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: left;
+  margin-top: 12pt;
+  line-height: 1.7em;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .section-header {
   font-size: x-large;
   text-align: center;
@@ -117,12 +135,12 @@ hr {
 }
 
 .inline-box {
-  float: right; 
+  float: right;
   width: 300px;
   text-align: center;
   border-style: solid;
   display: block;
-  margin:1em;
+  margin: 1em;
   padding: 1em;
 }
 
@@ -143,29 +161,29 @@ hr {
 
 #assertions-container {
   width: 100%;
-  clear:both;
+  clear: both;
   font-size: large;
   margin-top: 1em;
   margin-bottom: 1em
 }
 
-#assertions-container > .left {
+#assertions-container>.left {
   float: left;
 }
 
-#assertions-container > .middle {  
+#assertions-container>.middle {
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-#assertions-container > .right {
-  float: right;  
+#assertions-container>.right {
+  float: right;
 }
 
 .img-center {
   display: block;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 .bibliography-quote {
@@ -194,20 +212,20 @@ hr {
 }
 
 #header {
-	background: url(images/header-repeat.jpg) repeat-x left top;
-	margin: 0px;
-	padding: 0px;
-	height: 176px;
-	width: 100%;
+  background: url(images/header-repeat.jpg) repeat-x left top;
+  margin: 0px;
+  padding: 0px;
+  height: 176px;
+  width: 100%;
 }
 
 #headercontent {
-    background: url(images/header.png) no-repeat center top;
-    text-align: center;
-    margin: 0px auto;
-    padding: 0px;
-    height: 176px;
-    width: 780px;
+  background: url(images/header.png) no-repeat center top;
+  text-align: center;
+  margin: 0px auto;
+  padding: 0px;
+  height: 176px;
+  width: 780px;
 }
 
 .firstcharacter {
