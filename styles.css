@@ -9,8 +9,7 @@ h2,
 h3,
 h4 {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 8px;
-  !important
+  margin: 8px !important;
 }
 
 .sidenav {
@@ -212,12 +211,13 @@ hr {
 }
 
 #header {
-  background: url(images/header-repeat.jpg) repeat-x left top;
-  margin: 0px;
-  padding: 0px;
-  height: 176px;
+  display: block;
   width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  /* space between header and main content */
 }
+
 
 #headercontent {
   background: url(images/header.png) no-repeat center top;
@@ -238,3 +238,22 @@ hr {
   padding-right: 8px;
   padding-left: 3px;
 }
+
+/*
+#slideshow {
+  transition: opacity 1s ease-in-out;  
+  opacity: 1;
+} 
+*/
+
+#slideshow {
+  width: 467px;
+  height: 435px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%); /* optional letterbox color */
+  transition: opacity 1s ease-in-out; /* fade duration */
+  opacity: 1;                /* default visible */
+}
+
