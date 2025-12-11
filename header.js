@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "images/MSQ-Christimas-25-12-02-Work.jpg",
         "images/ManasotaSaxQuartetGroupPic-24-10-01.jpg"
       ];
-      const interval = 10000;
+      const interval = 7000;
       let index = 0;
       const slideshow = document.getElementById("slideshow");
 
